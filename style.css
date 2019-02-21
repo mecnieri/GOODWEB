@@ -1,6 +1,17 @@
 * {
   padding: 0;
   margin: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
+body {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(white),
+    to(lightgray)
+  );
+  background-image: linear-gradient(white, lightgray);
+}

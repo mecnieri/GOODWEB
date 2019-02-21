@@ -8,15 +8,15 @@
   margin: 0 auto;
   padding: 4px;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 62.25%;
 }
 .icons > a {
   text-decoration: none;
   border: 1px solid black;
   margin-right: 5px;
-  padding: 1px 3px 1px 6px;
+  padding: 0 3px 1px 6px;
 }
 
 .flags > a {
@@ -31,8 +31,9 @@
 #icon1 {
   padding-left: 8px;
 }
-#icon4 {
-  padding-right: 6px;
+#icon4 > img {
+  padding-right: 3px;
+  padding-bottom: 1px;
 }
 
 .logo {
@@ -51,8 +52,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 62.25%;
 }
 
@@ -61,7 +62,7 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-item-align: center;
-      align-self: center;
+  align-self: center;
   border: 1px solid black;
   width: 24%;
   height: 30px;
@@ -92,8 +93,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 62.25%;
 }
 .bottomHeader > nav li {
@@ -102,7 +103,7 @@
   margin-right: 2px;
   display: inline-block;
   -webkit-transform: scale(1.15, 0.9);
-          transform: scale(1.15, 0.9);
+  transform: scale(1.15, 0.9);
   font-family: "BPG Glaho WEB Caps", sans-serif;
 }
 
