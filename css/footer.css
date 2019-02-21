@@ -16,8 +16,10 @@ footer {
   }
   .footer__Div--Menu > nav > li {
     list-style: none;
-    transform: scale(1.35, 1);
-    transform-origin: left center;
+    -webkit-transform: scale(1.35, 1);
+            transform: scale(1.35, 1);
+    -webkit-transform-origin: left center;
+            transform-origin: left center;
   }
   .footer__Div--Menu > nav > li > ul > a {
     display: inline-block;
@@ -29,8 +31,12 @@ footer {
     margin: 6px;
   }
   .mobTop {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .address {
     padding: 10px;
@@ -51,16 +57,24 @@ footer {
   }
   .contact__values {
     font-family: "BPG Glaho WEB Caps", sans-serif;
-    transform: scale(1.2, 0.9);
-    transform-origin: left center;
+    -webkit-transform: scale(1.2, 0.9);
+            transform: scale(1.2, 0.9);
+    -webkit-transform-origin: left center;
+            transform-origin: left center;
   }
   #filialName {
-    transform: scale(1.2, 1);
-    transform-origin: left center;
+    -webkit-transform: scale(1.2, 1);
+            transform: scale(1.2, 1);
+    -webkit-transform-origin: left center;
+            transform-origin: left center;
   }
   .copyRight {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     opacity: 0.5;
     color: #a7a0a0;
   }

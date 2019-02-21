@@ -1,0 +1,89 @@
+@media only screen and (max-width: 1200px) {
+  header {
+    height: 440px;
+  }
+}
+
+@media only screen and (max-width: 1070px) {
+  .footer__Div {
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(2, 50%);
+  }
+  .textOnSlider__text {
+    display: none;
+  }
+  .textOnSlider {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  header {
+    height: 360px;
+  }
+  .btn {
+    padding: 2px 20px 0;
+  }
+  .items {
+    display: grid;
+    grid-template-columns: repeat(2, 49.5%);
+    grid-gap: 8px;
+  }
+  .our-team__members {
+    display: grid;
+    grid-template-columns: repeat(2, 49.5%);
+    grid-gap: 2%;
+  }
+}
+
+@media only screen and (max-width: 914px) {
+  .textOnSlider {
+    margin-top: 20px;
+  }
+  .bottomHeader {
+    background-color: rgba(256, 256, 256, 0.7);
+    height: 62px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  header {
+    height: 260px;
+  }
+  .textOnSlider {
+    display: none;
+  }
+  .items {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-gap: 8px;
+  }
+  .our-team__members {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-gap: 2%;
+  }
+
+  footer {
+    margin-top: 100px;
+  }
+  .footer__Div {
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(1, 100%);
+  }
+  .slider {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 543px) {
+  header {
+    height: 200px;
+  }
+  .bottomHeader {
+    background-color: rgba(256, 256, 256, 0.7);
+    height: 92px;
+  }
+}
