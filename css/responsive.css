@@ -16,6 +16,9 @@
   .textOnSlider {
     margin-top: 50px;
   }
+  .btn {
+    padding: 2px 20px 0;
+  }
 }
 
 @media only screen and (max-width: 990px) {
