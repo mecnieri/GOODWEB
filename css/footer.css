@@ -1,0 +1,71 @@
+footer {
+    color: #d2d2d2;
+    background-color: #404040;
+  }
+  
+  .footer__Div {
+    width: 62.25%;
+    padding: 20px 0;
+    text-align: left;
+    margin: 10px auto;
+    font-family: "BPG Glaho WEB Caps", sans-serif;
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(3, 32.5%);
+    border-bottom: 2px solid black;
+  }
+  .footer__Div--Menu > nav > li {
+    list-style: none;
+    transform: scale(1.35, 1);
+    transform-origin: left center;
+  }
+  .footer__Div--Menu > nav > li > ul > a {
+    display: inline-block;
+    text-decoration: none;
+    color: #a7a0a0;
+    font-size: 12px;
+  }
+  .footer__Div--Menu > nav > li :not(:first-child) {
+    margin: 6px;
+  }
+  .mobTop {
+    display: flex;
+    justify-content: space-between;
+  }
+  .address {
+    padding: 10px;
+    margin-top: 15px;
+    font-family: "BPG Glaho", sans-serif;
+    color: #a7a0a0;
+    font-size: 13px;
+    border-left: 1px solid#a7a0a0;
+    opacity: 0.5;
+  }
+  .contact {
+    margin-top: 15px;
+    line-height: 20px;
+  }
+  .contact > p {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+  .contact__values {
+    font-family: "BPG Glaho WEB Caps", sans-serif;
+    transform: scale(1.2, 0.9);
+    transform-origin: left center;
+  }
+  #filialName {
+    transform: scale(1.2, 1);
+    transform-origin: left center;
+  }
+  .copyRight {
+    display: flex;
+    justify-content: center;
+    opacity: 0.5;
+    color: #a7a0a0;
+  }
+  
+  .copyRight > span > a {
+    color: #d2d2d2;
+  }
+   

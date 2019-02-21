@@ -1,0 +1,78 @@
+
+.content {
+    width: 62.25%;
+    text-align: center;
+    margin: 10px auto;
+    padding: 20px 0;
+    font-family: "BPG Glaho WEB Caps", sans-serif;
+  }
+  .content > h3 {
+    margin: 15px;
+    transform: scale(1.35, 1.2);
+    font-weight: 300;
+  }
+  .items {
+    display: grid;
+    grid-template-columns: repeat(4, 24.5%);
+    grid-gap: 8px;
+  }
+  .items > a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .items__item > img {
+    width: 100%;
+    height: 135%;
+  }
+  .bottomDescription {
+    position: absolute;
+    bottom: 0px;
+    height: 40px;
+    width: 85.5%;
+    overflow: auto;
+    line-height: 40px;
+    color: white;
+    transform: scale(1.15, 0.9);
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .our-team > h3 {
+    margin: 25px 0 15px 0;
+    transform: scale(1.35, 1.2);
+    font-weight: 300;
+  }
+  
+  .our-team__members {
+    display: grid;
+    grid-template-columns: repeat(4, 23.7%);
+    grid-gap: 2%;
+  }
+  
+  .our-team__members--member > img {
+    width: 100%;
+  }
+  .our-team__members--member > .nameAndSurname {
+    margin: 10px;
+  }
+  
+  .our-team__members--member > .text {
+    font-size: 13px;
+    font-family: "BPG Glaho", sans-serif;
+  }
+  .btn {
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: 11px;
+    padding: 2px 40px 0;
+    font-family: "BPG Glaho WEB Caps", sans-serif;
+    line-height: 28px;
+    letter-spacing: 1px;
+  }
+  .btn:hover {
+    cursor: pointer;
+  }
+  
+  
